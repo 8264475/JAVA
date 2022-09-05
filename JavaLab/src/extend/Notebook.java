@@ -1,18 +1,22 @@
 package extend;
-//			   子類別			   父類別
-public abstract class Notebook extends Product{
+//多種型態:Notebook, Product
+//			    子類別			 父類別
+public class Notebook extends Product{
 
 	public int warranty;//保固天數
+	/*
 	//實作父類別繼承來的抽象方法
 	public int calc(int quantity) {
 		return price *quantity;
-
-		//constructor
-		this.price = price;
-		//setPrice(price);
-		this.warranty = warranty;
-	}
+	 }*/
 	
+	//constructor
+	public Notebook(String name, int price, int warranty) {
+		
+		super(name, price);
+		this.warranty=warranty;
+	}
+			
 	//override
 	public String desc() {
 		String infoFromSuper = super.desc();
@@ -32,5 +36,3 @@ public abstract class Notebook extends Product{
 	}
 	
 	}
-	
-	

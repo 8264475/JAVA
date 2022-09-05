@@ -1,6 +1,6 @@
 package extend;
 
-public abstract class Product {
+public class Product {
 	//常數常使用public,static,final這3個
 	public static final double TAX = 0.05;
 	static {
@@ -8,8 +8,8 @@ public abstract class Product {
 		System.out.println("只執行一次");
 	}
 	
-	String name;
-	int price;
+	protected String name;
+	protected int price;
 	
 	//constructor
 	public Product(String name, int price) {
@@ -17,14 +17,15 @@ public abstract class Product {
 		this.price = price;
 	}
 
-	protected String name;
-	protected int price;
 	public Product() {
 		
 	}
 	
 	//abstract抽象方法;沒有實作
-	public abstract int calt(int quantity);
+	//public abstract int calt(int quantity);
+	public int getPrice() {
+		return price;
+	}
 	
 	//description
 	//描述此商品,產生描述商品的文字
@@ -33,9 +34,6 @@ public abstract class Product {
 		return info;
 	}
 	
-	public int getPrice() {
-		return price;
-	}
 	
 	//get and setter
 	public String getName() {
