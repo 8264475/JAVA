@@ -12,10 +12,7 @@ public class TestException {
 			
 			int[] x = {};
 			System.out.println(x[0]);
-		}catch (ArithmeticException ex) {
-			ex.printStackTrace();
-			//攔到錯誤後要執行的程式
-			}catch(ArithmeticException | ArrayIndexOutOfBoundsException ex) {
+		}catch(ArithmeticException | ArrayIndexOutOfBoundsException ex) {
 			ex.printStackTrace();
 		}catch (Exception e) {
 			//攔最上層的父類別Exception
