@@ -2,8 +2,8 @@
 public class TestEmployee {
 
 	public static void main(String[] args) {
-		int			age		= 18;
-		Employee	emp		= new Employee();
+		int	age	= 18;
+		Employee emp = new Employee();
 		emp.empno = 1;//.->的,屬性
 		emp.name = "Vincent";
 		System.out.println("編號=" + emp.empno + ",name=" + emp.name);

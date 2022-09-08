@@ -1,21 +1,13 @@
-package polymorphism;
-
-import java.util.Date;
+package homework_5;
 
 public class Food extends Product {
-
-
-    private Date expireDate;
-
-    public Food(String name, int price, Date expireDate) {
-        super(name, price);
-        this.expireDate = expireDate;
-    }
-
-    @Override
-    public String desc() {
-        String description = super.desc();
-        description = description +",到期日："+expireDate;
-        return description;
-    }
+	public Food(String name, int price) { 
+		super(name, price);
+		}
+	public long getname() {
+		return this.getname();
+	}
+	public long getprice() {
+		return this.getprice();
+	}
 }
