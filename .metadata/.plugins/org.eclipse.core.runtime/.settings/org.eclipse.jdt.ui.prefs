@@ -1,0 +1,17 @@
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_
+content_assist_autoinsert=true
+content_assist_disable_completion_trigger_chars=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="pack1.Item"><rhs name\="pack1.Item"/></lhs><lhs name\="util.CountDown"><rhs name\="util.CountDown"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="array.Employee"><rhs name\="array.Employee"/></lhs><lhs name\="encap.Car"><rhs name\="encap.Car"/></lhs><lhs name\="java.util.Calendar"><rhs name\="java.util.GregorianCalendar"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.GregorianCalendar"/><rhs name\="java.util.Date"/></lhs><lhs name\="java.util.GregorianCalendar"><rhs name\="java.util.GregorianCalendar"/></lhs><lhs name\="interFace.Product"><rhs name\="interFace.SimCard"/></lhs><lhs name\="interFace.SimCard"><rhs name\="interFace.SimCard"/></lhs><lhs name\="java.util.Date"><rhs name\="java.util.Date"/></lhs><lhs name\="equals.Employee"><rhs name\="equals.Employee"/></lhs><lhs name\="java.io.InputStreamReader"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.io.Reader"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.lang.Readable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.io.FileReader"><rhs name\="java.io.FileReader"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="outf">System.out.printf("%n");</template></templates>
+sourceHoverBackgroundColor=255,255,225
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
